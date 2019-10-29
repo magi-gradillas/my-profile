@@ -1,0 +1,92 @@
+body{
+	font-family: Helvetica;
+	font-size: 18px;
+	line-height: 3;
+	text-align: center;
+	background-color: #5eb7b7;
+	color: #170a19; 
+	line-height: 1.8;
+	letter-spacing: 0.5px;
+	font-family: 'Poppins', sans-serif;
+	} 
+
+
+h1 {
+	font-size:50px;
+	color: #35b0ab;
+	font-weight: lighter;
+	font-family: 'Shadows Into Light', cursive;
+	letter-spacing: 3px;
+	}
+
+h2{
+	font-weight: bolder;
+	color: #35b0ab;
+	font-family: 'Shadows Into Light', cursive;
+	letter-spacing: 3px;
+	}
+
+a {
+	text-decoration: none;
+	color: #70416d;
+	}
+
+a:hover {
+	font-size:19px;
+	color: #f0134d;
+	transition:color 0.3s ease;
+	}
+
+div{
+	background: #ecfcff;
+	margin: 60px;
+	padding: 40px 80px;            
+	border-radius: 4px;  
+	box-shadow: 0 10px 30px rgba(255,255,255,.2);
+	border-radius: 7px;
+	}
+
+
+#profile{
+	width: 150px;
+	height: auto;
+	border-radius: 5px;
+	}
+
+.btn-purple{
+	background-color: #70416d;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+	}	
+
+.btn-purple:hover{
+	background-color: #f0134d;
+	color: white;
+	transition:color 0.3s ease;
+	font-size:19px;
+	}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+	}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+	}
+
+.list-inline i{
+	font-size: 40px;
+	}
+
+#intro p{
+	margin-bottom: 40px;
+	}
+
+@media (max-width: 760px){
+	.page{
+		width: 400px
+	}
+}
